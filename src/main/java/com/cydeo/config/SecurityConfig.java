@@ -39,10 +39,11 @@ public class SecurityConfig {
     public DefaultSecurityFilterChain filterCHain(HttpSecurity http) throws Exception {
         return http
                 .authorizeRequests()
-                .antMatchers("/user/**").hasRole("ADMIN")//under user controller
-                .antMatchers("/project/**").hasRole("MANAGER")
-                .antMatchers("/task/employee/**").hasRole("EMPLOYEE")
-                .antMatchers("/task/**").hasRole("MANAGER")
+                .antMatchers("/user/**").hasAuthority("Admin")// in DB we have, need to match DB way
+//                .antMatchers("/user/**").hasRole("ADMIN")//under user controller
+//                .antMatchers("/project/**").hasRole("MANAGER") has role has ROLE_ by default, that is why we need hasAuthority and use Admin as written in DB
+//                .antMatchers("/task/employee/**").hasRole("EMPLOYEE")
+//                .antMatchers("/task/**").hasRole("MANAGER")
                // .antMatchers("/task/**").hasAnyRole("EMPLOYEE","ADMIN")
                // .antMatchers("/task/**").hasAuthority("ROLE_EMPLOYEE") needs to match SimpleAuthority
                 .antMatchers(
