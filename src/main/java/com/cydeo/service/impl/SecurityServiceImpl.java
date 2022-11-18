@@ -17,8 +17,8 @@ public class SecurityServiceImpl implements SecurityService {
         this.userRepository = userRepository;
     }
 
-    @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+    @Override// return type UserDetails -  Spring User that implements UserDetail interface in UserPrinciple class
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {//polymorphism
         //entity
         User user =userRepository.findByUserNameAndIsDeleted(username, false);
         if(user==null){

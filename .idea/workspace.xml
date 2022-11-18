@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c793c1d9-77b7-423e-a881-dff39274a310" name="Changes" comment="Security Part 1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3/storage_v2/_src_/database/ticketing-app.KhVM7w.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3/storage_v2/_src_/database/ticketing-app.KhVM7w/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3/storage_v2/_src_/database/ticketing-app.KhVM7w/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3/storage_v2/_src_/database/ticketing-app.KhVM7w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cydeo/entity/common/UserPrincipal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cydeo/service/SecurityService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cydeo/service/impl/SecurityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3/storage_v2/_src_/database/ticketing-app.KhVM7w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3/storage_v2/_src_/database/ticketing-app.KhVM7w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/common/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/common/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/SecurityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/SecurityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cydeo/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cydeo/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cydeo/service/impl/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cydeo/service/impl/TaskServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cydeo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cydeo/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part-0" />
+        <entry key="$PROJECT_DIR$" value="part-1" />
       </map>
     </option>
   </component>
@@ -99,7 +96,8 @@
       <workItem from="1668440383599" duration="18000" />
       <workItem from="1668440456913" duration="12658000" />
       <workItem from="1668461844515" duration="30000" />
-      <workItem from="1668461877718" duration="92000" />
+      <workItem from="1668461877718" duration="118000" />
+      <workItem from="1668527941906" duration="10088000" />
     </task>
     <task id="LOCAL-00001" summary="Security">
       <created>1668457480595</created>
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668460113320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Security Part 1">
+      <created>1668461975549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668461975549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -9,16 +9,16 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class UserPrincipal implements UserDetails {
+public class UserPrincipal implements UserDetails {// Spring pushes you to implement particular methods
 
-    private User user;//entity
+    private User user;//entity we will pass and convert to Spring user
 
     public UserPrincipal(User user) {
         this.user = user;
     }
     //performs mapping between UserSpring and DB
     @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
+    public Collection<? extends GrantedAuthority> getAuthorities() {//GA how Spring understands roles(interface), impl is SimpleGrantedAuthority which looks for roles,
         List<GrantedAuthority> authorityList=new ArrayList<>();//GA is what used by Spring behind the scene
         GrantedAuthority authority = new SimpleGrantedAuthority(this.user.getRole().getDescription());
         authorityList.add(authority);
@@ -28,7 +28,7 @@ public class UserPrincipal implements UserDetails {
     @Override
     public String getPassword() {
      //   return user.getPassWord();
-        return this.user.getPassWord();
+        return this.user.getPassWord();// will return DB user password and pass it Spring User (mapping)
     }
 
     @Override
