@@ -13,6 +13,7 @@ public class UserPrincipal implements UserDetails {// Spring pushes you to imple
 
     private User user;//entity we will pass and convert to Spring user
 
+
     public UserPrincipal(User user) {
         this.user = user;
     }
@@ -56,5 +57,7 @@ public class UserPrincipal implements UserDetails {// Spring pushes you to imple
         return this.user.isEnabled();
     }
 
-
+    public Long getId(){
+        return this.user.getId();
+    }
 }
