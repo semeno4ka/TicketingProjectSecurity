@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c793c1d9-77b7-423e-a881-dff39274a310" name="Changes" comment="Security Part 2 Thymeleaf security">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3.xml" afterDir="false" />
+    <list default="true" id="c793c1d9-77b7-423e-a881-dff39274a310" name="Changes" comment="Security">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/common/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/common/UserPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cydeo/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cydeo/entity/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cydeo/entity/common/UserPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cydeo/entity/common/UserPrincipal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +88,8 @@
       <workItem from="1668527941906" duration="15990000" />
       <workItem from="1668958243428" duration="638000" />
       <workItem from="1669126693426" duration="444000" />
-      <workItem from="1669136678108" duration="701000" />
+      <workItem from="1669136678108" duration="1656000" />
+      <workItem from="1669475574622" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="Security">
       <created>1668457480595</created>
@@ -151,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668788870250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Security">
+      <created>1669143856018</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669143856018</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,10 +172,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Security" />
     <MESSAGE value="Security Part 1" />
     <MESSAGE value="Security Part 2" />
     <MESSAGE value="Security Part 2 Thymeleaf security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Security Part 2 Thymeleaf security" />
+    <MESSAGE value="Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Security" />
   </component>
 </project>
