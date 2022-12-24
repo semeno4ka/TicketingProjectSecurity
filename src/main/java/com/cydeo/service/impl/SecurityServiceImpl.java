@@ -10,20 +10,16 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SecurityServiceImpl implements SecurityService {
-
     private final UserRepository userRepository;
-
     public SecurityServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-
     @Override// return type UserDetails -  Spring User that implements UserDetail interface in UserPrinciple class
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {//polymorphism
-        //entity
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user =userRepository.findByUserNameAndIsDeleted(username, false);
-        if(user==null){
-            throw new UsernameNotFoundException(username);
-        }
-        return new UserPrincipal(user);// get user from DB and convert to Spring User through userPrincipal
+        if(user==null){throw new UsernameNotFoundException(username);}
+        return new UserPrincipal(user);
+        // get user from DB and convert to Spring User through userPrincipal
     }
 }
+
