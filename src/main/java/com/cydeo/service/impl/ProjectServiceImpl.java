@@ -30,7 +30,7 @@ public class ProjectServiceImpl implements ProjectService {
     private final TaskService taskService;
 
     public ProjectServiceImpl(ProjectRepository projectRepository, ProjectMapper projectMapper, @Lazy UserService userService, UserMapper userMapper, TaskService taskService) {
-        this.projectRepository = projectRepository;
+        this.projectRepository = projectRepository;                                         //Circular dependency. Whenever we need ProjectServiceImpl do not consider UserServiceImpl right away
         this.projectMapper = projectMapper;
         this.userService = userService;
         this.userMapper = userMapper;

@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c793c1d9-77b7-423e-a881-dff39274a310" name="Changes" comment="Security">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0f30300-b6fb-49de-80a2-c6f452ec6fe3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/config/AuthSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/config/AuthSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/BaseEntityListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/BaseEntityListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/common/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/entity/common/UserPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/service/SecurityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/SecurityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/SecurityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,7 @@
       <workItem from="1670342338641" duration="239000" />
       <workItem from="1670726101013" duration="8000" />
       <workItem from="1670902693350" duration="28000" />
-      <workItem from="1671898129283" duration="15069000" />
+      <workItem from="1671898129283" duration="19129000" />
     </task>
     <task id="LOCAL-00001" summary="Security">
       <created>1668457480595</created>
@@ -182,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670275309418</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Security">
+      <created>1671917316494</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671917316494</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -16,6 +16,9 @@ public class UserPrincipal implements UserDetails {
         this.user = user;
     }
     //performs mapping between UserSpring and DB
+    public Long getId(){
+        return this.user.getId();
+    }//is used in Listener to connect
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         //GA how Spring understands roles(interface), impl is SimpleGrantedAuthority which looks for roles,
@@ -55,7 +58,5 @@ public class UserPrincipal implements UserDetails {
         return this.user.isEnabled();
     }
 
-    public Long getId(){
-        return this.user.getId();
-    }
+
 }
